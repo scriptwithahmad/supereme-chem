@@ -5,21 +5,23 @@ const Footer = () => {
   return (
     <>
       <footer className="relative bg-gray-200 pt-8 pb-6">
-        <div className="max-w-[1200px] mx-auto px-4 py-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
-            <div className="w-[70%]">
-              <img
-                className="w-52 mb-5"
-                src="https://supreme-chem.com/images/logo.png"
-                alt="Img Here"
-              />
+        <div className="max-w-[1240px] mx-auto px-4 py-8">
+          <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
+            <div className="w-full lg:w-[70%]">
+              <Link href={"/"}>
+                <img
+                  className="w-52 mb-5"
+                  src="https://supreme-chem.com/images/logo.png"
+                  alt="Img Here"
+                />
+              </Link>
               <p className="text-sm text-justify mb-3 line-clamp-3 text-neutral-600">
                 Explore eco-friendly fertilizers for vibrant gardens. Elevate
                 plant health with our premium selection. Discover sustainable
                 solutions for thriving green spaces
               </p>
             </div>
-            <div className="grid grid-cols-2">
+            <div className="grid grid-cols-1 lg:grid-cols-2">
               <div className="">
                 <a className="block uppercase text-lg font-semibold mb-2 text-slate-950">
                   Useful Links
@@ -28,7 +30,7 @@ const Footer = () => {
                   <li>
                     <a
                       className="text-neutral-600 hover:text-[color:var(--main-color)] block pb-2 text-sm"
-                      href="/"
+                      href="#home"
                     >
                       Home
                     </a>
@@ -36,7 +38,7 @@ const Footer = () => {
                   <li>
                     <a
                       className="text-neutral-600 hover:text-[color:var(--main-color)] block pb-2 text-sm"
-                      href="#story"
+                      href="/our-story"
                     >
                       Our Story
                     </a>
@@ -52,7 +54,7 @@ const Footer = () => {
                   <li>
                     <a
                       className="text-neutral-600 hover:text-[color:var(--main-color)] block pb-2 text-sm"
-                      href="https://www.creative-tim.com/bootstrap-themes/free?ref=njs-profile"
+                      href="/news"
                     >
                       News
                     </a>

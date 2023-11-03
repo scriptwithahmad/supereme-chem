@@ -17,3 +17,7 @@
   scroll-behavior: smooth;
   font-family: "Poppins", sans-serif;
 }
+
+.navActive{
+  color: var(--main-color) !important; 
+  }
