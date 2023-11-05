@@ -1,12 +1,20 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 const Navbar = () => {
   const [showNav, setShowNav] = useState(false);
   const toggleNav = () => {
     setShowNav(!showNav);
   };
+
+  useEffect(() => {
+    if (showNav) {
+      window.document.body.style.overflow = "hidden";
+    } else {
+      window.document.body.style.overflow = "visible";
+    }
+  }, [showNav]);
 
   const navLinks = [
     { text: "Home", route: "/" },
