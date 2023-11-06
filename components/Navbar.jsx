@@ -18,7 +18,7 @@ const Navbar = () => {
 
   const navLinks = [
     { text: "Home", route: "/" },
-    { text: "Story", route: "/our-story" },
+    { text: "Our Story", route: "/our-story" },
     { text: "Products & Services", route: "/products" },
     { text: "News", route: "/news" },
   ];
@@ -27,12 +27,12 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="bg-white border-gray-200 shadow-sm sticky top-0 z-10 px-4 lg:px-0">
+      <nav className="bg-white border-gray-200 shadow-sm sticky top-0 px-4 lg:px-0 z-40">
         <div className="relative max-w-[1200px] flex flex-wrap items-center justify-between mx-auto py-4">
           <a href="/" className="flex items-center">
             <img
-              src="https://supreme-chem.com/images/logo.png"
-              className="w-40"
+              src="/images/logo.png"
+              className="w-72"
               alt="Flowbite Logo"
             />
           </a>
@@ -76,9 +76,8 @@ const Navbar = () => {
             </ul>
           </div>
           <Link
-            target="_blank"
             className="hidden md:block"
-            href={"https://www.linkedin.com/company/supreme-chemical/"}
+            href={"/contact"}
           >
             <button className="text-[color:var(--main-color)] border border-[color:var(--main-color)] px-3 py-1 rounded-full hover:text-white hover:bg-[color:var(--main-color)]">
               Contact Us

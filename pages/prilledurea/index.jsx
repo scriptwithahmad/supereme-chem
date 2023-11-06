@@ -14,7 +14,10 @@ const index = () => {
     { title: "Moisture, max", data: "≥ 0.3%" },
     { title: "under 1 mm, max", data: "3%" },
     { title: "under 6 mm", data: "100%" },
-    { title: "Granule static strength of granules, min", data: "0.7 kgF/granule" },
+    {
+      title: "Granule static strength of granules, min",
+      data: "0.7 kgF/granule",
+    },
     { title: "Friability", data: "100%" },
   ];
 
@@ -42,21 +45,21 @@ const index = () => {
             <div className="grid grid-cols-3 items-end gap-4">
               <div className="w-full h-[70%]">
                 <img
-                  className="w-full h-full object-cover rounded-lg"
+                  className="w-full h-full object-contain"
                   src="/images/f3.png"
                   alt="Image Here"
                 />
               </div>
               <div className="w-full h-[80%]">
                 <img
-                  className="w-full h-full rounded-lg"
+                  className="w-full h-full object-contain"
                   src="/images/f3.png"
                   alt="Image Here"
                 />
               </div>
               <div className="w-full h-full">
                 <img
-                  className="w-full h-full rounded-lg"
+                  className="w-full h-full object-contain"
                   src="/images/f3.png"
                   alt="Image Here"
                 />
@@ -99,7 +102,7 @@ const index = () => {
         </div>
       </div>
       {/* Table  */}
-      <div class="relative min-w-[500px] max-w-[1200px] m-auto overflow-x-auto mb-8">
+      <div class="relative min-w-[370px] max-w-[1200px] m-auto overflow-x-auto mb-8 px-4">
         <table class="w-full text-sm text-left text-gray-500 border">
           <thead class="text-xs text-gray-700 uppercase bg-gray-100">
             <tr>
@@ -133,6 +136,7 @@ const index = () => {
           </tbody>
         </table>
       </div>
+      <div className="bg-[url('/images/overlay.png')] h-screen w-[500px] bg-no-repeat opacity-[.3] lg:opacity-100 absolute -top-[360px] -z-10 -right-[0px] rotate-180"></div>
     </>
   );
 };

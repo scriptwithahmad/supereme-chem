@@ -10,13 +10,13 @@ const Footer = () => {
             <div className="w-full lg:w-[70%]">
               <Link href={"/"}>
                 <img
-                  className="w-52 mb-5"
-                  src="https://supreme-chem.com/images/logo.png"
+                  className="w-64 mb-5"
+                  src="/images/logo.png"
                   alt="Img Here"
                 />
               </Link>
               <p className="text-sm text-justify mb-3 line-clamp-3 text-neutral-600">
-                Explore eco-friendly fertilizers for vibrant gardens. Elevate
+                Explore eco-friendly fertilizers for vibrant farms. Elevate
                 plant health with our premium selection. Discover sustainable
                 solutions for thriving green spaces
               </p>
@@ -30,7 +30,7 @@ const Footer = () => {
                   <li>
                     <a
                       className="text-neutral-600 hover:text-[color:var(--main-color)] block pb-2 text-sm"
-                      href="#home"
+                      href="/"
                     >
                       Home
                     </a>
@@ -46,7 +46,7 @@ const Footer = () => {
                   <li>
                     <a
                       className="text-neutral-600 hover:text-[color:var(--main-color)] block pb-2 text-sm"
-                      href="#service"
+                      href="/products"
                     >
                       Products & Services
                     </a>
@@ -57,6 +57,14 @@ const Footer = () => {
                       href="/news"
                     >
                       News
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="text-neutral-600 hover:text-[color:var(--main-color)] block pb-2 text-sm"
+                      href="/contact"
+                    >
+                      Contact Us
                     </a>
                   </li>
                 </ul>

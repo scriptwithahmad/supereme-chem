@@ -27,7 +27,7 @@ const index = () => {
               </Link>
             </div>
             <div>
-              <img className="rounded-lg" src="/images/news.jpeg" alt="" />
+              <img className="rounded-lg" src="/images/linkdin.jpeg" alt="" />
             </div>
           </div>
         </div>

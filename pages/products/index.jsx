@@ -15,7 +15,7 @@ const Products = () => {
               <Link href={"/granularurea"}>
                 <img
                   className="h-full p-4 w-full object-cover rounded-[30px]"
-                  src="https://supreme-chem.com/images/products/granularurea50.png"
+                  src="/images/g1.png"
                   alt="image here"
                 />
               </Link>
@@ -24,7 +24,7 @@ const Products = () => {
               <Link href={"/prilledurea"}>
                 <img
                   className="h-full p-4 w-full object-cover rounded-[30px]"
-                  src="https://supreme-chem.com/images/products/prilled50.png"
+                  src="/images/p1.png"
                   alt=""
                 />
               </Link>
@@ -33,7 +33,7 @@ const Products = () => {
               <Link href={"/calciumammoniumnitrate"}>
                 <img
                   className="h-full p-4 w-full object-cover rounded-[30px]"
-                  src="https://supreme-chem.com/images/products/can50.png"
+                  src="/images/c1.png"
                   alt=""
                 />
               </Link>

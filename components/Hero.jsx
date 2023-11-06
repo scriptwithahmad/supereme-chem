@@ -25,18 +25,17 @@ const Hero = () => {
                 to crop selection and soil management empowers our clients to
                 achieve superior quality and higher yields on their farms.
               </p>
-              <Link target="_blank" href={"https://www.linkedin.com/company/supreme-chemical/"}>
+              {/* <Link
+                target="_blank"
+                href={"https://www.linkedin.com/company/supreme-chemical/"}
+              >
                 <button className="mt-4 text-[color:var(--primary-color)] border border-[color:var(--primary-color)] px-4 py-1 rounded-lg hover:text-white hover:bg-[color:var(--primary-color)] transition duration-500">
                   Contact Us
                 </button>
-              </Link>
+              </Link> */}
             </div>
             <div>
-              <img
-                className="rounded-lg"
-                src="https://img2.chinadaily.com.cn/images/201805/14/5af92ef7a3103f68b65ae108.jpeg"
-                alt=""
-              />
+              <img className="rounded-lg" src="/images/hero.jpg" alt="" />
             </div>
           </div>
         </div>
