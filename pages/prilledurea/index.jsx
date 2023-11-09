@@ -102,9 +102,9 @@ const index = () => {
         </div>
       </div>
       {/* Table  */}
-      <div class="relative min-w-[370px] max-w-[1200px] m-auto overflow-x-auto mb-8 px-4">
-        <table class="w-full text-sm text-left text-gray-500 border">
-          <thead class="text-xs text-gray-700 uppercase bg-gray-100">
+      <div className="relative min-w-[370px] max-w-[1200px] m-auto overflow-x-auto mb-8 px-4">
+        <table className="w-full text-sm text-left text-gray-500 border">
+          <thead className="text-xs text-gray-700 uppercase bg-gray-100">
             <tr>
               {tableHeader.map((value, index) => {
                 return (
@@ -122,14 +122,14 @@ const index = () => {
           <tbody>
             {tableData.map((v, i) => {
               return (
-                <tr class="bg-white border-b" key={i}>
+                <tr className="bg-white border-b" key={i}>
                   <th
                     scope="row"
-                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+                    className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
                   >
                     {v.title}
                   </th>
-                  <td class="px-6 py-4">{v.data}</td>
+                  <td className="px-6 py-4">{v.data}</td>
                 </tr>
               );
             })}
